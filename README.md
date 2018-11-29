@@ -1,2 +1,2 @@
 # diary
-Record knowledge points encountered
+> Record knowledge points encountered !!!
