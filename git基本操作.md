@@ -35,15 +35,17 @@ git commit -am "注释" //跳过git add命令，直接提交
 ### git push
 > git push 是将本地库中的最新信息发送给远程库
 
+```js
+git push origin master //把本地master分支的最新修改推送至远程库，现在，你就拥有了真正的分布式版本库！
+```
+
 ### git pull
 > git pull 是从远程获取最新版本到本地，并自动merge
 
 ### git diff
 > git diff 来查看执行 git status 的结果的详细信息。
 
-```js
-git push origin master //把本地master分支的最新修改推送至远程库，现在，你就拥有了真正的分布式版本库！
-```
+
 
 1. 尚未缓存的改动：git diff
 2. 查看已缓存的改动： git diff --cached
